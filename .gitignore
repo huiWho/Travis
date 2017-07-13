@@ -1,0 +1,28 @@
+.settings/
+target/
+.metadata
+bin/
+tmp/
+.loadpath
+*.tmp
+*.bak
+*.swp
+*~.nib
+.classpath
+.project
+
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+#angular stuff
+node/
+node_modules/
+**/frontend/dist
+
+# IntelliJ
+.idea
+*.iml
