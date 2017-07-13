@@ -22,4 +22,16 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <build>
+    <resources>
+        <resource>
+            <includes>
+                <include>**/*</include>
+            </includes>
+            <directory>src/main/resources</directory>
+            <filtering>true</filtering>
+        </resource>
+    </resources>
+    <finalName>travis-test</finalName>  
+  </build>
 </project>
