@@ -11,15 +11,10 @@ services:
 
 travis_test:
   adapter: postgresql
-  database: travis_test
 
 cache:
   directories:
     - $HOME/.m2
-
-before_script:
-  - psql --version
-  - psql -c 'create database travis_test;' -U postgres
 
 script:
   - mvn -B -Dmaven.deploy.skip=true -Dmaven.javadoc.skip=true 
