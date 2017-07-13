@@ -8,4 +8,4 @@ cache:
     - $HOME/.m2
 
 script:
-  - mvn -B -Dmaven.deploy.skip=true
+  - mvn -B -Dmaven.deploy.skip=true install 
